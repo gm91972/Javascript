@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px;
+}
+.calculator{
+    box-shadow: 3px 3px 40px rgb(170, 167, 167);
+    width: 270px;
+    height: 455px;
+    border-radius: 12px;
+    background-color: black;
+}
+.calculator form{
+    border-radius: 10px;
+}
+input{
+    padding: 5px 0px;
+    background-color: rgb(7, 6, 6);
+    width: 99%;
+    height: 110px;
+    color: white;
+    font-size: 26px;
+    text-align: right;
+    border-radius: 10px;
+    margin: 1px 0px;
+}
+
+.button-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.btn{
+    padding: 12px 21px;
+    margin: 4px;
+    font-size: 20px;
+    border-radius: 26px;
+    cursor: pointer;
+    box-shadow: 0.8px 0.8px 4px white;
+}
+.btn:hover{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+.btn-blue{
+    color: rgb(44, 44, 165);
+    background-color: rgb(238, 238, 253);
+}
+.btn-blue:hover{
+    color: white;
+    background-color: rgb(17, 17, 95);
+}
+.btn-white{
+    background-color: white;
+}
+.btn-green{
+    background-color: rgb(83, 202, 83);
+}
+.btn-green:hover{
+    background-color: rgb(34, 207, 34);
+}
+.btn-red{
+    background-color: rgb(224, 18, 18);
+}
+.btn-red:hover{
+    background-color: rgb(221, 3, 3);
+}
